@@ -1,4 +1,4 @@
-@Library('Sh_library@master') _
+@Library('gs-shared-lib@master') _
 
 pipeline{
   agent any
