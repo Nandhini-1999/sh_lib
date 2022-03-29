@@ -1,0 +1,12 @@
+@Library('gs-shared-lib@master') _
+
+pipeline{
+  agent any
+  
+  stages{
+    stage('Checkout') {
+     steps{
+        git credentialsId: 'Nandhini-1999', url: 'https://github.com/Nandhini-1999/sh_lib.git'
+     }
+     }
+     }
