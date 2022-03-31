@@ -1,13 +1,13 @@
 @Library('sh_library') _
 
-//pipeline{
-  //agent any
+pipeline{
+  agent any
   
-  //stages{
+  stages{
     //stage('Checkout') {
      //steps{
        // git url: 'https://github.com/Nandhini-1999/sh_lib.git'
      //}
      //}
-    // }
-//}
+     }
+}
