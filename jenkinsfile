@@ -4,10 +4,10 @@ pipeline{
   agent any
   
   stages{
-    stage('Checkout') {
-     steps{
-        git url: 'https://github.com/Nandhini-1999/sh_lib.git'
-     }
-     }
+    //stage('Checkout') {
+     //steps{
+       // git url: 'https://github.com/Nandhini-1999/sh_lib.git'
+     //}
+     //}
      }
 }
