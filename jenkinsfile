@@ -6,7 +6,6 @@ pipeline{
   stages{
     stage('Checkout') {
      steps{
-        branch: 'master'
         git credentialsId: 'Nandhini-1999', url: 'https://github.com/Nandhini-1999/sh_lib.git'
      }
      }
