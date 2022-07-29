@@ -1,4 +1,4 @@
-@Library('sh_library') _
+
 
 pipeline{
   agent any
